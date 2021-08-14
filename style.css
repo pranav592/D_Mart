@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 87px;
+    background-color:blue;
+    border: 2px solid yellow;
+    font-family: 'Hahmlet', serif;
+    color: white;
+}
+nav{
+    display: flex;
+}
+.logo{
+    margin: 0px 5px 7px 13px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+
+}
+nav ul li{
+   padding: -6px;
+   margin: 34px;
+   list-style: none;
+}
+nav ul li:hover{
+
+  font-weight: bolder;
+}
+.search input{
+    display: flex;
+    width: 500px;
+    height: 2vh;
+    align-items: center;
+    border-radius: 13.5px;
+    margin: 5vh 0vh -5vh 22vh;
+    padding: 1vh;
+
+
+}
+.btn{
+   margin: 0px 683px;
+   padding: 5px 10px;
+
+}
+.lines{
+    align-items: center;
+    justify-content: center;
+    margin: 0px 9px 4px 7px;
+}
+.line{
+    align-items: center;
+    justify-content: center;
+    margin: 0px 9px 4px 7px;  
+}
+
+.slider{
+    margin: auto;
+    width: 99vw;
+    margin: 12px auto auto ;
+}
+.container{
+    text-align: center;
+    min-height: calc(100vh - 80px - 12vh)
+}
+.class h2{
+    font-family: 'Hahmlet', serif;  
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+   
+ 
+}
+
+.card-item-1{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 19px 5px 7px 13px;
+    padding: 0px;
+}
+img{
+    margin: 19px 5px 7px 13px;
+}
+footer{
+    height: 12vh;
+    background-color: blue;
+    color: white;
+    font-family: 'Hahmlet', serif;
+}
