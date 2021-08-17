@@ -10,29 +10,25 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 87px;
+    height: 6rem;
     background-color:blue;
-    border: 2px solid yellow;
     font-family: 'Hahmlet', serif;
     color: white;
+    width: 100rem;
 }
 nav{
     display: flex;
 }
-.logo{
-    margin: 0px 5px 7px 13px;
-    display: flex;
-    align-items: center;
-}
+
 nav ul{
     display: flex;
     justify-content: flex-start;
 
 }
 nav ul li{
-   padding: -6px;
-   margin: 34px;
+   margin: 2rem;
    list-style: none;
+   padding: 1rem;
 }
 nav ul li:hover{
 
@@ -40,24 +36,20 @@ nav ul li:hover{
 }
 .search input{
     display: flex;
-    width: 500px;
-    height: 2vh;
+    width: 31rem;
+    height: 1.5rem;
     align-items: center;
-    border-radius: 13.5px;
-    margin: 5vh 0vh -5vh 22vh;
-    padding: 1vh;
+    border-radius: 45.5rem;
+    margin: 3rem 7rem -2rem -2rem ;
+    padding: 0em;
 
 
 }
-.btn{
-   margin: 0px 683px;
-   padding: 5px 10px;
 
-}
 .lines{
     align-items: center;
     justify-content: center;
-    margin: 0px 9px 4px 7px;
+    margin: -6rem -10rem 3rem -9rem;
 }
 .line{
     align-items: center;
@@ -74,7 +66,7 @@ nav ul li:hover{
     text-align: center;
     min-height: calc(100vh - 80px - 12vh)
 }
-.class h2{
+ h2{
     font-family: 'Hahmlet', serif;  
 }
 .card{
@@ -85,7 +77,7 @@ nav ul li:hover{
  
 }
 
-.card-item-1{
+.card-item{
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
@@ -93,10 +85,11 @@ nav ul li:hover{
     padding: 0px;
 }
 img{
-    margin: 19px 5px 7px 13px;
+    margin: 0rem 1rem 6rem 0rem;
+    display: flex;
 }
 footer{
-    height: 12vh;
+    height: 5rem;
     background-color: blue;
     color: white;
     font-family: 'Hahmlet', serif;
